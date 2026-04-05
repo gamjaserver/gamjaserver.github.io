@@ -268,7 +268,7 @@ function animate(currentTime) {
         // 2초당 1회전, 즉, 1초당 180도 회전
         rotationAngle = Math.PI * Math.sin(deltaTime) * 2.0;
         applyTransform('RST');
-        rotationAngleW = Math.PI * Math.sin(deltaTime) * 10.0;
+        rotationAngleW = Math.PI * Math.sin(deltaTime) * - 10.0;
         applyTransformW1('RST');
         applyTransformW2('RST');
     }
