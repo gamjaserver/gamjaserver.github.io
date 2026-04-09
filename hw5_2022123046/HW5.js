@@ -4,7 +4,7 @@ HW5.js
 
 import { resizeAspectRatio, Axes } from '../util/util.js';
 import { Shader, readShaderFile } from '../util/shader.js';
-import { squarePyramid } from 'hw5_2022123046/squarePyramid.js';
+import { squarePyramid } from './squarepyramid.js';
 
 const canvas = document.getElementById('glCanvas');
 const gl = canvas.getContext('webgl2');
