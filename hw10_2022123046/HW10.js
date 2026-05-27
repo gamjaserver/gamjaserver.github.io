@@ -160,14 +160,14 @@ const folder5 = gui.addFolder('Mars');
 
 folder1.add(controls, 'switchCamera');
 folder1.add(controls, 'perspective').listen();
-folder2.add(props, 'Mercury_rotatespeed', 0, 0.2, 0.01);
-folder2.add(props, 'Mercury_orbitspeed', 0, 0.2, 0.01);
-folder3.add(props, 'Venus_rotatespeed', 0, 0.2, 0.01);
-folder3.add(props, 'Venus_orbitspeed', 0, 0.2, 0.01);
-folder4.add(props, 'Earth_rotatespeed', 0, 0.2, 0.01);
-folder4.add(props, 'Earth_orbitspeed', 0, 0.2, 0.01);
-folder5.add(props, 'Mars_rotatespeed', 0, 0.2, 0.01);
-folder5.add(props, 'Mars_orbitspeed', 0, 0.2, 0.01);
+folder2.add(props, 'Mercury_rotatespeed', 0, 0.2, 0.01).name('Rotation Speed');
+folder2.add(props, 'Mercury_orbitspeed', 0, 0.2, 0.01).name('Orbit Speed');
+folder3.add(props, 'Venus_rotatespeed', 0, 0.2, 0.01).name('Rotation Speed');
+folder3.add(props, 'Venus_orbitspeed', 0, 0.2, 0.01).name('Orbit Speed');
+folder4.add(props, 'Earth_rotatespeed', 0, 0.2, 0.01).name('Rotation Speed');
+folder4.add(props, 'Earth_orbitspeed', 0, 0.2, 0.01).name('Orbit Speed');
+folder5.add(props, 'Mars_rotatespeed', 0, 0.2, 0.01).name('Rotation Speed');
+folder5.add(props, 'Mars_orbitspeed', 0, 0.2, 0.01).name('Orbit Speed');
 
 
 // listen to the resize events
