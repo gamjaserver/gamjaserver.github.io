@@ -375,11 +375,7 @@ export class Player {
 
         const o = 0.35; 
         const rayPositions = [
-            new THREE.Vector3(pos.x,     pos.y, pos.z),    
-            new THREE.Vector3(pos.x + o, pos.y, pos.z),    
-            new THREE.Vector3(pos.x - o, pos.y, pos.z),    
-            new THREE.Vector3(pos.x,     pos.y, pos.z + o), 
-            new THREE.Vector3(pos.x,     pos.y, pos.z - o)  
+            new THREE.Vector3(pos.x,     pos.y, pos.z),     
         ];
 
         const rayDirection = new THREE.Vector3(0, -1, 0); 
