@@ -342,7 +342,7 @@ export class gasnear {
         };
 
         try {
-            const bookModel = await loadFBX('book.fbx');
+            const bookModel = await loadFBX('Book.fbx');
             bookModel.scale.set(0.15, 0.15, 0.15); 
             
             bookModel.traverse(child => {
@@ -361,8 +361,8 @@ export class gasnear {
             this.mixer = new THREE.AnimationMixer(bookModel);
 
             const animFiles = {
-                'IDLE_BOOK': 'book1.fbx',
-                'ACTIVE_BOOK': 'book2.fbx'
+                'IDLE_BOOK': 'Book1.fbx',
+                'ACTIVE_BOOK': 'Book2.fbx'
             };
 
             for (const [animName, fileName] of Object.entries(animFiles)) {
